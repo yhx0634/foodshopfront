@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/yhx0634/foodshopfront#readme",
   "dependencies": {
+    "antd": "^2.12.7",
     "babel-loader": "^7.1.2",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
