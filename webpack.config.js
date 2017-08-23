@@ -11,10 +11,13 @@ module.exports = {
         query: {
           presets: ['react', 'es2015']
         }
-    }]
+    },
+    //使用 ant-design 的配置文件
+    { test: /\.css$/, loader: 'style-loader!css-loader' }
+  ]
   },
   output: {
     filename: 'bundle.js',
-    path: path.resolve(__dirname, 'dist')
+    path: path.resolve(__dirname, 'src')
   }
 };
